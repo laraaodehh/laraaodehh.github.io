@@ -1,41 +1,58 @@
-
-div{
-
-border: 2px; 
-border-radius: 10px
-
-
-}
-.paragraph{
-
-    padding: 8px; 
-    border: 8px solid blue;
-    background-color: yellow;
-    
-
-    p{
-        color: rgb(0, 0, 0);
-        font-size: 15px;
-        text-align: left; 
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-p{
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    text-align: left; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-h1 {
-    color: rgb(8, 8, 8);
-    font-size:larger;
-    font-weight: bold;
-    font-size: 100;
-    text-align:left;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
 }
