@@ -56,3 +56,8 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+/* Center the paragraph under the About Me section */
+#about p {
+    text-align: center;
+}
