@@ -19,7 +19,7 @@ header h1 {
 
 nav {
     position: absolute;
-    top: 60px;
+    top: 20px;
     right: 20px;
 }
 
@@ -57,8 +57,14 @@ section {
     justify-content: space-around;
 }
 
-#vertical-turbine, #horizontal-turbine {
-    width: 45%;
+#vertical-turbine img,
+#horizontal-turbine img {
+    width: 300px;
+    height: 300px;
+}
+
+#vertical-turbine,
+#horizontal-turbine {
     text-align: center;
 }
 
