@@ -9,10 +9,37 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative; /* Position relative for positioning navigation bar */
 }
 
 header h1 {
     margin: 0;
+    display: inline-block; /* Ensures the header does not collapse */
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
