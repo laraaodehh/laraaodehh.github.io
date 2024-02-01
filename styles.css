@@ -23,6 +23,12 @@ nav {
     right: 20px;
 }
 
+nav {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -57,14 +63,8 @@ section {
     justify-content: space-around;
 }
 
-#vertical-turbine img,
-#horizontal-turbine img {
-    width: 300px;
-    height: 300px;
-}
-
-#vertical-turbine,
-#horizontal-turbine {
+#vertical-turbine, #horizontal-turbine {
+    width: 45%;
     text-align: center;
 }
 
